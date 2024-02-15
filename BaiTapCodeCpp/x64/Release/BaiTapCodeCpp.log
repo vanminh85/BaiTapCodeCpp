@@ -1,0 +1,31 @@
+﻿  BaiTap5.cpp
+C:\Users\Minh\VB2 CNTT\ChuyenDeToChucDuLieu\BaiTapCodeCpp\BaiTapCodeCpp\BaiTap5.cpp(12,10): error C2039: 'cout': is not a member of 'std'
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\cmath(713,1):
+  see declaration of 'std'
+  
+C:\Users\Minh\VB2 CNTT\ChuyenDeToChucDuLieu\BaiTapCodeCpp\BaiTapCodeCpp\BaiTap5.cpp(12,10): error C2065: 'cout': undeclared identifier
+C:\Users\Minh\VB2 CNTT\ChuyenDeToChucDuLieu\BaiTapCodeCpp\BaiTapCodeCpp\BaiTap5.cpp(13,10): error C2039: 'cin': is not a member of 'std'
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\cmath(713,1):
+  see declaration of 'std'
+  
+C:\Users\Minh\VB2 CNTT\ChuyenDeToChucDuLieu\BaiTapCodeCpp\BaiTapCodeCpp\BaiTap5.cpp(13,10): error C2065: 'cin': undeclared identifier
+C:\Users\Minh\VB2 CNTT\ChuyenDeToChucDuLieu\BaiTapCodeCpp\BaiTapCodeCpp\BaiTap5.cpp(18,10): error C2039: 'cout': is not a member of 'std'
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\cmath(713,1):
+  see declaration of 'std'
+  
+C:\Users\Minh\VB2 CNTT\ChuyenDeToChucDuLieu\BaiTapCodeCpp\BaiTapCodeCpp\BaiTap5.cpp(18,10): error C2065: 'cout': undeclared identifier
+C:\Users\Minh\VB2 CNTT\ChuyenDeToChucDuLieu\BaiTapCodeCpp\BaiTapCodeCpp\BaiTap5.cpp(18,76): error C2039: 'endl': is not a member of 'std'
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\cmath(713,1):
+  see declaration of 'std'
+  
+C:\Users\Minh\VB2 CNTT\ChuyenDeToChucDuLieu\BaiTapCodeCpp\BaiTapCodeCpp\BaiTap5.cpp(18,76): error C2065: 'endl': undeclared identifier
+C:\Users\Minh\VB2 CNTT\ChuyenDeToChucDuLieu\BaiTapCodeCpp\BaiTapCodeCpp\BaiTap5.cpp(19,10): error C2039: 'cout': is not a member of 'std'
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\cmath(713,1):
+  see declaration of 'std'
+  
+C:\Users\Minh\VB2 CNTT\ChuyenDeToChucDuLieu\BaiTapCodeCpp\BaiTapCodeCpp\BaiTap5.cpp(19,10): error C2065: 'cout': undeclared identifier
+C:\Users\Minh\VB2 CNTT\ChuyenDeToChucDuLieu\BaiTapCodeCpp\BaiTapCodeCpp\BaiTap5.cpp(19,79): error C2039: 'endl': is not a member of 'std'
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\cmath(713,1):
+  see declaration of 'std'
+  
+C:\Users\Minh\VB2 CNTT\ChuyenDeToChucDuLieu\BaiTapCodeCpp\BaiTapCodeCpp\BaiTap5.cpp(19,79): error C2065: 'endl': undeclared identifier
