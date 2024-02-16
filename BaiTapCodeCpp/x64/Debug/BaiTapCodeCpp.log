@@ -1,3 +1,1 @@
-﻿  BaiTap2_1.cpp
-C:\Users\minh.nguyen\Downloads\ChuyenDeToChucDuLieu\BaiTapCodeCpp\BaiTapCodeCpp\BaiTap2_1.cpp(38,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
-  BaiTapCodeCpp.vcxproj -> C:\Users\minh.nguyen\Downloads\ChuyenDeToChucDuLieu\BaiTapCodeCpp\x64\Debug\BaiTapCodeCpp.exe
+﻿  BaiTapCodeCpp.vcxproj -> C:\Users\minh.nguyen\Downloads\ChuyenDeToChucDuLieu\BaiTapCodeCpp\x64\Debug\BaiTapCodeCpp.exe
