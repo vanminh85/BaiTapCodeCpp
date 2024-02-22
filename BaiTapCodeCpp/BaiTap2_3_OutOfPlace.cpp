@@ -1,30 +1,36 @@
-#include <iostream>
+﻿#include <iostream>
 #include <vector>
 #include <unordered_set>
 using namespace std;
 
-void removeDuplicatesOutOfPlace(vector<int>& nums) {
-    unordered_set<int> seen;
-    vector<int> result;
+void XoaPhanTuTrungOutOfPlace(int nums[], int& size) {
+    unordered_set<int> mangPhu; // Mảng phụ chứa phần tử trùng
+    vector<int> result; // Mảng kết quả không chứ phần tử trùng
 
-    for (int num : nums) {
-        if (seen.find(num) == seen.end()) {
-            seen.insert(num);
-            result.push_back(num);
+    for (int i = 0; i < size; i++) {
+        if (mangPhu.find(nums[i]) == mangPhu.end()) {
+            mangPhu.insert(nums[i]);
+            result.push_back(nums[i]);
         }
     }
 
-    nums = result;
+    // Trở lại mảng với phần tử không trùng lặp
+    size = 0;
+    for (int num : result) {
+        nums[size++] = num;
+    }
 }
 
 int main() {
-    vector<int> numbers = { 1, 2, 2, 3, 4, 4, 5 };
+    // Mảng nhập vào
+    int mangSo[] = { 1, 2, 2, 3, 4, 4, 5, 4, 6, 7, 8, 9, 0, 0, 4 };
+    int size = sizeof(mangSo) / sizeof(mangSo[0]); // Kích cỡ mảng
 
-    removeDuplicatesOutOfPlace(numbers);
+    XoaPhanTuTrungOutOfPlace(mangSo, size);
 
-    cout << "Mang sau khi xoa cac so trung nhau out-of-place: ";
-    for (int num : numbers) {
-        cout << num << " ";
+    cout << "Mang sau khi xoa tat ca cac so trung nhau: ";
+    for (int i = 0; i < size; i++) {
+        cout << mangSo[i] << " ";
     }
 
     return 0;
