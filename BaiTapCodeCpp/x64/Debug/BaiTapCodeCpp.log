@@ -1,2 +1,3 @@
-﻿  BaiTap2_3_OutOfPlace.cpp
+﻿  BaiTap2_4.cpp
+C:\Users\minh.nguyen\Downloads\ChuyenDeToChucDuLieu\BaiTapCodeCpp\BaiTapCodeCpp\BaiTap2_4.cpp(15,16): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
   BaiTapCodeCpp.vcxproj -> C:\Users\minh.nguyen\Downloads\ChuyenDeToChucDuLieu\BaiTapCodeCpp\x64\Debug\BaiTapCodeCpp.exe

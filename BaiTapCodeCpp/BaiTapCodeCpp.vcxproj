@@ -132,6 +132,7 @@
     <ClCompile Include="BaiTap2_2.cpp" />
     <ClCompile Include="BaiTap2_3_InPlace.cpp" />
     <ClCompile Include="BaiTap2_3_OutOfPlace.cpp" />
+    <ClCompile Include="BaiTap2_4.cpp" />
     <ClCompile Include="BaiTap3_3_2.cpp" />
     <ClCompile Include="BaiTap3_3_3.cpp" />
     <ClCompile Include="BaiTap3_5_5.cpp" />

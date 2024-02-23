@@ -1,31 +1,37 @@
-//#include <iostream>
+﻿//#include <iostream>
 //#include <vector>
 //using namespace std;
 //
-//void removeDuplicatesInPlace(vector<int>& nums) {
-//    int n = nums.size();
+//void XoaPhanTuTrungInPlace(vector<int>& mangSo) {
+//    int n = mangSo.size();
 //    if (n <= 1) {
 //        return;
 //    }
 //
-//    int j = 0;
 //    for (int i = 0; i < n; i++) {
-//        if (nums[i] != nums[j]) {
-//            nums[++j] = nums[i];
+//        int j = i + 1;
+//        while (j < n) {
+//            if (mangSo[j] == mangSo[i]) {
+//                // Xóa phần tử trùng
+//                mangSo.erase(mangSo.begin() + j);
+//                // Giảm kích thước mảng sau khi xóa phần tử
+//                n--;
+//            }
+//            else {
+//                j++;
+//            }
 //        }
 //    }
-//
-//    nums.resize(j + 1);
 //}
 //
 //int main() {
-//    vector<int> numbers = { 1, 2, 2, 3, 4, 4, 5 };
+//    vector<int> mangSo = { 1, 2, 2, 3, 4, 4, 5, 4, 6, 7, 8, 9, 0, 0, 4, 5, 6 };
 //
-//    removeDuplicatesInPlace(numbers);
+//    XoaPhanTuTrungInPlace(mangSo);
 //
 //    cout << "Mang sau khi xoa cac so trung nhau in-place: ";
-//    for (int num : numbers) {
-//        cout << num << " ";
+//    for (int soNguyen : mangSo) {
+//        cout << soNguyen << " ";
 //    }
 //
 //    return 0;

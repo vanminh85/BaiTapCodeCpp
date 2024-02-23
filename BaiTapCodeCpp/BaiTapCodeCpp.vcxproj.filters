@@ -54,5 +54,8 @@
     <ClCompile Include="BaiTap2_3_OutOfPlace.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="BaiTap2_4.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
