@@ -133,12 +133,18 @@
     <ClCompile Include="BaiTap2_3_InPlace.cpp" />
     <ClCompile Include="BaiTap2_3_OutOfPlace.cpp" />
     <ClCompile Include="BaiTap2_4.cpp" />
+    <ClCompile Include="BaiTap3_2.cpp" />
+    <ClCompile Include="BaiTap3_3.cpp" />
     <ClCompile Include="BaiTap3_3_2.cpp" />
     <ClCompile Include="BaiTap3_3_3.cpp" />
+    <ClCompile Include="BaiTap3_4.cpp" />
+    <ClCompile Include="BaiTap3_5.cpp" />
     <ClCompile Include="BaiTap3_5_5.cpp" />
+    <ClCompile Include="BaiTap4_5_2.cpp" />
     <ClCompile Include="BaiTap5.cpp" />
     <ClCompile Include="ConTroCapPhatDong1.cpp" />
     <ClCompile Include="ConTroCapPhatDong2.cpp" />
+    <ClCompile Include="Example.cpp" />
     <ClCompile Include="TLBG2_ConTroMangThamChieu.cpp" />
     <ClCompile Include="TLBG1_GioiThieuConTro.cpp" />
   </ItemGroup>

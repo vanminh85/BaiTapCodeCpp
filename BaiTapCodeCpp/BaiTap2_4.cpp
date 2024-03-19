@@ -27,9 +27,9 @@ int RomanToInt(string s) {
     return result;
 }
 
-int main() {
-    string romanNumeral = "MDCLXVI";
-    int decimalNum = RomanToInt(romanNumeral);
-    cout << "Chuoi so La Ma " << romanNumeral << " chuyen thanh so nguyen: " << decimalNum << endl;
-    return 0;
-}
+//int main() {
+//    string romanNumeral = "MDCLXVI";
+//    int decimalNum = RomanToInt(romanNumeral);
+//    cout << "Chuoi so La Ma " << romanNumeral << " chuyen thanh so nguyen: " << decimalNum << endl;
+//    return 0;
+//}
